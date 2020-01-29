@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#151E29"
+
+    >
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/requirePerms"
+        android:id="@+id/permButton"
+        android:onClick="askPerms"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+
+
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:id="@+id/musicListFrag"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+
+
+        />
+
+
+    <FrameLayout
+        android:elevation="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:translationY="430dp"
+        android:id="@+id/musicControllerFragPlaceholder"
+
+
+        />
+
+</RelativeLayout>
